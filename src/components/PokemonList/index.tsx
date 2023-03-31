@@ -9,7 +9,7 @@ interface Props {
 
 export const PokemonList = ({ pokemonsUrls, page, perPage }: Props) => {
   return (
-    <div>
+    <div className={styles.pokemons}>
       {
         pokemonsUrls?.map((pokemonUrl) => <PokemonCard key={pokemonUrl} url={pokemonUrl} />)
       }
