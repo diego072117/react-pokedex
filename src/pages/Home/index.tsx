@@ -10,6 +10,7 @@ export const Home = () => {
                     <span>Pokedex</span>
                 </div>
             </header>
+            <PokemonList />
         </div>
     )
 }
