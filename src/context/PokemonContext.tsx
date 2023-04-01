@@ -58,6 +58,7 @@ const PokemonProvaider = ({ children }: any) => {
     };
 
     useEffect(() => {
+      getPokemonsType();
       getAllPokemons()
     }, [])
     

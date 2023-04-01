@@ -1,6 +1,4 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import './index.scss'
 import { Home, PokeDetail } from './pages'
