@@ -9,6 +9,7 @@
     max-width: 350px;
     margin: 0 auto;
   
+  
     .container {
       width: 100%;
       display: flex;
@@ -25,7 +26,8 @@
       border: 1px solid #e0e0e0;
       border-radius: 8px;
       font-size: 16px;
-      height: 38px;
+      height: 38px;  
+      background-color: #FFF;
   
       display: flex;
       align-items: center;
